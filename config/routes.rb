@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root "pages#home"
+  root "pages#home" #creates root_path variable"
   get "about" => "pages#about" #creates about_path variable
   get "home" => "pages#home" #creates home_path variable
   # The priority is based upon order of creation: first created -> highest priority.
